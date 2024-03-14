@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: AbC@2269
+    url: jdbc:mysql://localhost:3306/cruddb
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
